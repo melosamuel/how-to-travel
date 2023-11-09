@@ -1,0 +1,5 @@
+departure,arrival,depart_date,depart_duration,depart_airline,adults,children,cabin_class,price
+Rio de Janeiro Internacional - Galeão - Brasil (GIG),Maceió - Brasil (MCZ),28/10/2023,9900,GOL,1,0,economic,800
+Maceió - Brasil (MCZ),Rio de Janeiro Internacional - Galeão - Brasil (GIG),03/12/2023,18900,GOL,1,0,economic,900
+Rio de Janeiro - Santos Dumont - Brasil (SDU),Maceió - Brasil (MCZ),28/10/2023,18600,Azul,1,0,economic,1500
+Maceió - Brasil (MCZ),Rio de Janeiro - Santos Dumont - Brasil (SDU),03/12/2023,81900,GOL,1,0,economic,1110

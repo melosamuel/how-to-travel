@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../../static/style.css">
+    <title>API</title>
+</head>
+<body class="bg-gray-800 min-h-screen border">
+    <header class="p-4 w-full bg-blue-400 text-center rounded-b-2xl">
+        <p class="font-bold text-xl">API</p>
+    </header>
+    <main class="mt-4 text-center bg-gray-200 rounded-t-2xl p-4 min-h-screen pt-24">
+        <form action="/flights/" class="flex flex-col w-2/4 m-auto">
+            <div class="my-3">
+                <input type="text" name="from" id="from" placeholder="From" class="rounded-lg w-full p-2">
+                <ul id="from-wrapper" class="invisible"></ul>
+            </div>
+            <div class="my-3">
+                <input type="text" name="to" id="to" placeholder="To" class="rounded-lg w-full p-2">
+                <ul id="to-wrapper" class="invisible"></ul>
+            </div>
+            <button type="submit" class="bg-blue-400 rounded-2xl p-2 min-w-fit">Submit</button>
+        </form>
+    </main>
+    <footer class="text-center bg-blue-400 p-4 bottom-0">
+        <p>Made by @melosamuel</p>
+    </footer>
+    <script src="../../static/index.js"></script>
+</body>
+</html>
